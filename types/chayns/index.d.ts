@@ -232,6 +232,8 @@ declare namespace chayns {
          * chayns.env.user
          */
         namespace user {
+            let adminMode: boolean;
+            
             let tobitAccessToken: string;
 
             let facebookAccessToken: string;
